@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="btn0"
+        android:textSize="40sp"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        />
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="btn1"
+        android:textSize="40sp"
+        android:layout_above="@id/bt"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="btn2"
+        android:textSize="40sp"
+        android:layout_below="@id/bt"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="btn3"
+        android:textSize="40sp"
+        android:layout_toLeftOf="@id/bt"
+        android:layout_centerVertical="true"
+        />
+    <Button
+        android:id="@+id/bt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="btn4"
+        android:textSize="40sp"
+        android:layout_toRightOf="@id/bt"
+        android:layout_centerVertical="true"
+        />
+
+
+</RelativeLayout>
